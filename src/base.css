@@ -1,0 +1,19 @@
+.my-cont {
+    max-width: min(90%,80rem) !important;
+    margin: 0 auto;
+
+  }
+
+html {
+scroll-behavior: smooth;
+font-family: "Inter";
+
+}
+
+
+@media only screen and (min-width: 600px) {
+  .my-cont {
+    max-width: min(80%,70rem) !important;
+    margin: 0 auto;
+  }
+}
