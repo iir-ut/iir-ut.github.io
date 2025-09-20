@@ -2,193 +2,159 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/ut-logo.png" />
+    <link rel="icon" type="image/svg+xml" href="./ut-logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Intelligent Information Retrieval Course | ECE at University of Tehran</title>
-    <script type="module" crossorigin src="/assets/index-DjtAsOH_.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-uUvUfPoV.css">
+    <script type="module" crossorigin src="./assets/index-DjtAsOH_.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-uUvUfPoV.css">
   </head>
   <style>
     .container {
-    max-width: min(90%,80rem);
-    margin: 0 auto;
-  }
- 
+      max-width: min(90%,80rem);
+      margin: 0 auto;
+    }
     @media screen and (min-width: 644px) {
-  #messy-fix-no-time {
-    height: 13rem;
-  }
-}
-  
+      #messy-fix-no-time {
+        height: 13rem;
+      }
+    }
     html {
-    scroll-behavior: smooth;
+      scroll-behavior: smooth;
     }
   </style>
   <body>
-    <div id="app" class="">
-    <header x-data="{mobileNavOpen:false}" class=" py-2 px-4 shadow-lg bg-primary-600 flex text-white justify-between items-center">
-      <div class="left flex items-center gap-2">
-        <img src="/ut-logo.png" alt="" class="w-20 shadow-lg" srcset="">
-        <div class="">
-          <h1>
-            Intelligent Information Retrieval  <br>
-          </h1>
-
-          <p class="text-xs font-thin">Faculty of Electrical & <br> Computer Engineering, <br> University of Tehran
-          
-          </p>
-        </div>
-      </div>
-      <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='512'%20height='512'%20viewBox='0%200%20512%20512'%3e%3cg%20class='nc-icon-wrapper'%20fill='%23ffffff'%3e%3cpath%20fill='none'%20stroke='%23ffffff'%20stroke-linecap='round'%20stroke-miterlimit='10'%20stroke-width='32'%20d='M80%20160L432%20160'%3e%3c/path%3e%3cpath%20fill='none'%20stroke='%23ffffff'%20stroke-linecap='round'%20stroke-miterlimit='10'%20stroke-width='32'%20d='M80%20256L432%20256'%3e%3c/path%3e%3cpath%20fill='none'%20stroke='%23ffffff'%20stroke-linecap='round'%20stroke-miterlimit='10'%20stroke-width='32'%20d='M80%20352L432%20352'%3e%3c/path%3e%3c/g%3e%3c/svg%3e" class="fill-white w-16 " @click="mobileNavOpen = true" alt="">
-      <ul class="flex justify-between hidden">
-        <li>
-          Teaching Staff
-        </li>
-        <li>
-          Logistic
-        </li>
-        <li>
-          Content
-        </li>
-      </ul>
-      <nav  x-transition x-transition.origin.right @click.outside="mobileNavOpen = false"  class="min-h-screen bg-white w-10/12 max-w-[32rem] fixed right-0 top-0 z-[100] shadow-2xl border-l border-primary-700/10" x-show='mobileNavOpen'>
-        <h2 class="bg-primary-50 rounded-xl m-4 shadow-sm text-primary-500 text-center py-4 px-2 font-semibold">Natural Language Processing Course Web Page <br> Spring 2024 </h2>
-        <ul class=" divide-y-2  px-8   justify-between flex flex-col text-primary-600 font-semibold w-full text-center text-lg  ">
-          <li class="py-4">
-            <a href="#staff">Teaching Staff</a>
-          </li>
-          <li class="py-4">
-            <a href="#logistics">Logistic</a>
-          </li>
-          <li class="py-4">
-            <a href="#content">Content</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <section id="intro" class="px-6 py-8 container">
-      <h1 class="font-bold text-xl">Intelligent Information Retrieval – Fall 2024</h1>
-      Information Retrieval (IR) involves the science and engineering of indexing, organizing, searching, and interpreting unstructured or semi-structured data, with a focus on text. The course emphasizes the foundational models that support efficient search and organization, while also touching on performance optimization issues. Additionally, it explores contemporary research challenges and methodologies in the field of Information Retrieval.    </section>
-    <section id="staff" class=" bg-primary-50 px-6 py-8">
-      <div class="container flex flex-col lg:items-start lg:justify-center lg:flex-row gap-10 items-center">
-        <div class="left flex-col justify-center items-center gap-20 ">
-          <article class="flex flex-col items-center">
-            <h2 class="font-bold sm:text-xl">
-              Instructor
-            </h2>
-            <img src="/shakery.png" alt="" class="border-4 border-primary-400 w-36 sm:w-52 mt-5 lg:mt-9 object-cover rounded-full">
-            <p class="mt-1 sm:text-lg text-nowrap">Dr. Azadeh Shakery</p>
-            <div class="sm:[&>a>img]:h-8 [&>a>img]:h-6 items-center flex gap-2 mt-1">
-              <a href="mailto:shakery@ut.ac.ir"><img src="/mail-open-outline.svg" alt=""></a>
-              <a href="https://ece.ut.ac.ir/en/~shakery"><img src="/link.svg" alt=""></a>
-            </div>
-          </article>
-          <article class="flex flex-col items-center mt-10">
-            <h2 class="font-bold sm:text-xl text-nowrap">
-              Chief Teaching Assistant
-            </h2>
-            <img src="/peymani.jpg" alt="" class="border-4 sm:w-52 w-36 sm:!h-52 border-primary-400 h-36 mt-5  rounded-full">
-            <p class="mt-1 sm:text-lg text-nowrap">Samaneh Peymani Rad</p>
-            <div class="sm:[&>a>img]:h-8 [&>a>img]:h-6 items-center flex gap-2 mt-1">
-              <a href="https://www.linkedin.com/in/samaneh-peymani-rad-40736a144"><img src="/logo-linkedin.svg" alt="" class="sm:!h-7 !h-5"></a>
-              <a href="mailto:samanehrad94@gmail.com"><img src="/mail-open-outline.svg" alt=""></a>
-            </div>
-          </article>
-        </div>
-        <div class="right flex flex-col items-center gap-3">
-          <h2 class="font-bold text-xl">
-            Teaching Staff
-          </h2>
-          <div class="grid [&>article>img]:border-2 [&>article>img]:border-primary-500  grid-cols-2 text-center -mx-10 sm:mx-0 justify-center lg:items-start lg:justify-center lg:grid md:grid-cols-3 gap-10  ">
-            <article class="flex flex-col items-center">
-              <img src="/roshandel.png" alt="" class="sm:w-52 w-36 mt-5 object-cover rounded-full">
-              <!-- <p class="text-xs sm:text-sm font-light mt-2">Chatbots & Dialogue Systems</p> -->
-              <p class="text-xs sm:text-sm text-gray-600 mt-2">CA1 & CA2</p>
-              <p class="mt-1 sm:text-lg">
-                Amir Hossein Roshandel
-              </p>
-              <div class="sm:[&>a>img]:h-8 [&>a>img]:h-6 items-center flex gap-2 mt-1">
-                <a href="https://www.linkedin.com/in/amir-hossein-roshandel-0ab09a138/"><img src="/logo-linkedin.svg" alt="" class="sm:!h-7 !h-5"></a>
-                <a href="mailto:roshandel2004@gmail.com"><img src="/mail-open-outline.svg" alt=""></a>
-              </div>
-            </article>
-        
-            <article class="flex flex-col items-center">
-              <img src="/shirvani.jpg" alt="" class="sm:w-52 w-36 mt-5 object-cover rounded-full">
-              <!-- <p class="text-xs sm:text-sm font-light mt-2">Transformer, Pre-training, Post-training, LLMs</p> -->
-              <p class="text-xs sm:text-sm text-gray-600 mt-2"> CA3</p>
-              <p class="mt-1 sm:text-lg">
-                Hooman Shirvani 
-              </p>
-              <div class="sm:[&>a>img]:h-8 [&>a>img]:h-6 items-center flex gap-2 mt-1">
-                <a href="https://www.linkedin.com/in/hooman-shirvani-520272160/"><img src="/logo-linkedin.svg" alt="" class="sm:!h-7 !h-5"></a>
-                <a href="mailto:Hoomanshirvani@ut.ac.ir"><img src="/mail-open-outline.svg" alt=""></a>
-              </div>
-            </article>
-            <article class="flex flex-col items-center">
-              <img src="/alaei.jpg" alt="" class="sm:w-52 w-36 mt-5 object-cover rounded-full">
-              <!-- <p class="text-xs sm:text-sm font-light mt-2">Transformer, Pre-training, Post-training, LLMs</p> -->
-              <p class="text-xs sm:text-sm text-gray-600 mt-2">CA4, Workshop 1</p>
-              <p class="mt-1 sm:text-lg">
-                Mohammad Reza Alaei
-              </p>
-              <div class="sm:[&>a>img]:h-8 [&>a>img]:h-6 items-center flex gap-2 mt-1">
-                <a href="https://www.linkedin.com/in/mreza-alaei/"><img src="/logo-linkedin.svg" alt="" class="sm:!h-7 !h-5"></a>
-                <a href="mailto:mr.alaei@ut.ac.ir"><img src="/mail-open-outline.svg" alt=""></a>
-              </div>
-            </article>
-            <article class="flex flex-col items-center">
-              <img src="/adibi.jpg" alt="" class="sm:w-52 w-36 h-[13rem] mt-5 object-cover rounded-full" id="messy-fix-no-time">
-              <!-- <p class="text-xs sm:text-sm font-light mt-2">Sentiment, Embedding, Naive Bayes</p> -->
-              <p class="text-xs sm:text-sm text-gray-600 mt-2">CA5</p>
-              <p class="mt-1 sm:text-lg">
-                Ali Adibi
-              </p>
-              <div class="sm:[&>a>img]:h-8 [&>a>img]:h-6 items-center flex gap-2 mt-1">
-                <a href="https://www.linkedin.com/in/ali-adibi-348383329/"><img src="/logo-linkedin.svg" alt="" class="sm:!h-7 !h-5"></a>
-                <a href="mailto:adibiali.76@gmail.com"><img src="/mail-open-outline.svg" alt=""></a>
-                <a href="https://github.com/adibialii"><img src="/link.svg" alt=""></a>
-              </div>
-            </article>
-            <article class="flex flex-col items-center">
-              <img src="/mohammadi.jpeg" alt="" class="sm:w-52 w-36 sm:!h-52 aspect-square mt-5 object-cover rounded-full">
-              <!-- <p class="text-xs sm:text-sm font-light mt-2">Neural Language Models(RNN,LSTM,GRU)</p> -->
-              <p class="text-xs sm:text-sm text-gray-600 mt-2">CA1, CA2, Workshop 2</p>
-              <p class="mt-1 sm:text-lg">
-                Milad Mohammadi
-              </p>
-              <div class="sm:[&>a>img]:h-8 [&>a>img]:h-6 items-center flex gap-2 mt-1">
-                <a href="https://www.linkedin.com/in/mohammadi-milad-mim//"><img src="/logo-linkedin.svg" alt="" class="sm:!h-7 !h-5"></a>
-                <a href="mailto:Mohammadi.milad.mim@gmail.com"><img src="/mail-open-outline.svg" alt=""></a>
-                <a href="https://miladmohammadi.xyz"><img src="/link.svg" alt=""></a>
-              </div>
-            </article>
- 
-            <article class="flex flex-col items-center">
-              <img src="/rahimzadeh.jpg" alt="" class="sm:w-52 w-36 mt-5 object-cover rounded-full">
-              <!-- <p class="text-xs sm:text-sm font-light mt-2">Chatbots & Dialogue Systems</p> -->
-              <p class="text-xs sm:text-sm text-gray-600 mt-2"> CA6</p>
-              <p class="mt-1 sm:text-lg">
-                Vahid Rahimzadeh
-              </p>
-              <div class="sm:[&>a>img]:h-8 [&>a>img]:h-6 items-center flex gap-2 mt-1">
-                <a href="https://www.linkedin.com/in/vavre/"><img src="/logo-linkedin.svg" alt="" class="sm:!h-7 !h-5"></a>
-                <a href="mailto:vahyd@live.com"><img src="/mail-open-outline.svg" alt=""></a>
-              </div>
-            </article>
-
+    <div id="app">
+      <header x-data="{mobileNavOpen:false}" class="py-2 px-4 shadow-lg bg-primary-600 flex text-white justify-between items-center">
+        <div class="left flex items-center gap-2">
+          <img src="./ut-logo.png" alt="" class="w-20 shadow-lg" />
+          <div>
+            <h1>Intelligent Information Retrieval<br></h1>
+            <p class="text-xs font-thin">
+              Faculty of Electrical & <br> Computer Engineering, <br> University of Tehran
+            </p>
           </div>
         </div>
-      </div>
-    </section>
-    <section id="logistics" class="px-6 py-8 ">
-      <div class="container">
-        <h1 class="font-bold text-xl">Logistics</h1>
-        <p class="mt-4">
-          Class Location and Timing: Room 203, Tehran University's College of Engineering. Sunday and Tuesday, 1:30 PM to 3 PM Iran Standard Time.      </p>
-      </div>
-    </section>
-   
+        <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='512'%20height='512'%20viewBox='0%200%20512%20512'%3e%3cg%20class='nc-icon-wrapper'%20fill='%23ffffff'%3e%3cpath%20fill='none'%20stroke='%23ffffff'%20stroke-linecap='round'%20stroke-miterlimit='10'%20stroke-width='32'%20d='M80%20160L432%20160'%3e%3c/path%3e%3cpath%20fill='none'%20stroke='%23ffffff'%20stroke-linecap='round'%20stroke-miterlimit='10'%20stroke-width='32'%20d='M80%20256L432%20256'%3e%3c/path%3e%3cpath%20fill='none'%20stroke='%23ffffff'%20stroke-linecap='round'%20stroke-miterlimit='10'%20stroke-width='32'%20d='M80%20352L432%20352'%3e%3c/path%3e%3c/g%3e%3c/svg%3e" class="fill-white w-16" @click="mobileNavOpen = true" alt="">
+        <nav x-transition x-transition.origin.right @click.outside="mobileNavOpen = false"
+          class="min-h-screen bg-white w-10/12 max-w-[32rem] fixed right-0 top-0 z-[100] shadow-2xl border-l border-primary-700/10"
+          x-show="mobileNavOpen">
+          <h2 class="bg-primary-50 rounded-xl m-4 shadow-sm text-primary-500 text-center py-4 px-2 font-semibold">
+            Natural Language Processing Course Web Page <br> Spring 2024
+          </h2>
+          <ul class="divide-y-2 px-8 flex flex-col text-primary-600 font-semibold w-full text-center text-lg">
+            <li class="py-4"><a href="#staff">Teaching Staff</a></li>
+            <li class="py-4"><a href="#logistics">Logistic</a></li>
+            <li class="py-4"><a href="#content">Content</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <section id="intro" class="px-6 py-8 container">
+        <h1 class="font-bold text-xl">Intelligent Information Retrieval – Fall 2024</h1>
+        Information Retrieval (IR) involves the science and engineering of indexing, organizing, searching, and interpreting unstructured or semi-structured data, with a focus on text. The course emphasizes the foundational models that support efficient search and organization, while also touching on performance optimization issues. Additionally, it explores contemporary research challenges and methodologies in the field of Information Retrieval.
+      </section>
+
+      <section id="staff" class="bg-primary-50 px-6 py-8">
+        <div class="container flex flex-col lg:items-start lg:justify-center lg:flex-row gap-10 items-center">
+          <div class="left flex-col justify-center items-center gap-20">
+            <article class="flex flex-col items-center">
+              <h2 class="font-bold sm:text-xl">Instructor</h2>
+              <img src="./shakery.png" alt="" class="border-4 border-primary-400 w-36 sm:w-52 mt-5 lg:mt-9 object-cover rounded-full">
+              <p class="mt-1 sm:text-lg text-nowrap">Dr. Azadeh Shakery</p>
+              <div class="sm:[&>a>img]:h-8 [&>a>img]:h-6 flex gap-2 mt-1">
+                <a href="mailto:shakery@ut.ac.ir"><img src="./mail-open-outline.svg" alt=""></a>
+                <a href="https://ece.ut.ac.ir/en/~shakery"><img src="./link.svg" alt=""></a>
+              </div>
+            </article>
+
+            <article class="flex flex-col items-center mt-10">
+              <h2 class="font-bold sm:text-xl text-nowrap">Head Teaching Assistant</h2>
+              <img src="./peymani.jpg" alt="" class="border-4 sm:w-52 w-36 sm:!h-52 border-primary-400 h-36 mt-5 rounded-full">
+              <p class="mt-1 sm:text-lg text-nowrap">Samaneh Peymani Rad</p>
+              <div class="sm:[&>a>img]:h-8 [&>a>img]:h-6 flex gap-2 mt-1">
+                <a href="https://www.linkedin.com/in/samaneh-peymani-rad-40736a144"><img src="./logo-linkedin.svg" alt="" class="sm:!h-7 !h-5"></a>
+                <a href="mailto:samanehrad94@gmail.com"><img src="./mail-open-outline.svg" alt=""></a>
+              </div>
+            </article>
+          </div>
+
+          <div class="right flex flex-col items-center gap-3">
+            <h2 class="font-bold text-xl">Teaching Staff</h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-10 text-center">
+              <article class="flex flex-col items-center">
+                <img src="./roshandel.png" alt="" class="sm:w-52 w-36 mt-5 object-cover rounded-full">
+                <p class="text-xs sm:text-sm text-gray-600 mt-2">CA1 & CA2</p>
+                <p class="mt-1 sm:text-lg">Amir Hossein Roshandel</p>
+                <div class="flex gap-2 mt-1">
+                  <a href="https://www.linkedin.com/in/amir-hossein-roshandel-0ab09a138/"><img src="./logo-linkedin.svg" alt=""></a>
+                  <a href="mailto:roshandel2004@gmail.com"><img src="./mail-open-outline.svg" alt=""></a>
+                </div>
+              </article>
+
+              <article class="flex flex-col items-center">
+                <img src="./shirvani.jpg" alt="" class="sm:w-52 w-36 mt-5 object-cover rounded-full">
+                <p class="text-xs sm:text-sm text-gray-600 mt-2">CA3</p>
+                <p class="mt-1 sm:text-lg">Hooman Shirvani</p>
+                <div class="flex gap-2 mt-1">
+                  <a href="https://www.linkedin.com/in/hooman-shirvani-520272160/"><img src="./logo-linkedin.svg" alt=""></a>
+                  <a href="mailto:Hoomanshirvani@ut.ac.ir"><img src="./mail-open-outline.svg" alt=""></a>
+                </div>
+              </article>
+
+              <article class="flex flex-col items-center">
+                <img src="./alaei.jpg" alt="" class="sm:w-52 w-36 mt-5 object-cover rounded-full">
+                <p class="text-xs sm:text-sm text-gray-600 mt-2">CA4, Workshop 1</p>
+                <p class="mt-1 sm:text-lg">Mohammad Reza Alaei</p>
+                <div class="flex gap-2 mt-1">
+                  <a href="https://www.linkedin.com/in/mreza-alaei/"><img src="./logo-linkedin.svg" alt=""></a>
+                  <a href="mailto:mr.alaei@ut.ac.ir"><img src="./mail-open-outline.svg" alt=""></a>
+                </div>
+              </article>
+
+              <article class="flex flex-col items-center">
+                <img src="./adibi.jpg" alt="" class="sm:w-52 w-36 h-[13rem] mt-5 object-cover rounded-full" id="messy-fix-no-time">
+                <p class="text-xs sm:text-sm text-gray-600 mt-2">CA5</p>
+                <p class="mt-1 sm:text-lg">Ali Adibi</p>
+                <div class="flex gap-2 mt-1">
+                  <a href="https://www.linkedin.com/in/ali-adibi-348383329/"><img src="./logo-linkedin.svg" alt=""></a>
+                  <a href="mailto:adibiali.76@gmail.com"><img src="./mail-open-outline.svg" alt=""></a>
+                  <a href="https://github.com/adibialii"><img src="./link.svg" alt=""></a>
+                </div>
+              </article>
+
+              <article class="flex flex-col items-center">
+                <img src="./mohammadi.jpeg" alt="" class="sm:w-52 w-36 sm:!h-52 aspect-square mt-5 object-cover rounded-full">
+                <p class="text-xs sm:text-sm text-gray-600 mt-2">CA1, CA2, Workshop 2</p>
+                <p class="mt-1 sm:text-lg">Milad Mohammadi</p>
+                <div class="flex gap-2 mt-1">
+                  <a href="https://www.linkedin.com/in/mohammadi-milad-mim//"><img src="./logo-linkedin.svg" alt=""></a>
+                  <a href="mailto:Mohammadi.milad.mim@gmail.com"><img src="./mail-open-outline.svg" alt=""></a>
+                  <a href="https://miladmohammadi.xyz"><img src="./link.svg" alt=""></a>
+                </div>
+              </article>
+
+              <article class="flex flex-col items-center">
+                <img src="./rahimzadeh.jpg" alt="" class="sm:w-52 w-36 mt-5 object-cover rounded-full">
+                <p class="text-xs sm:text-sm text-gray-600 mt-2">CA6</p>
+                <p class="mt-1 sm:text-lg">Vahid Rahimzadeh</p>
+                <div class="flex gap-2 mt-1">
+                  <a href="https://www.linkedin.com/in/vavre/"><img src="./logo-linkedin.svg" alt=""></a>
+                  <a href="mailto:vahyd@live.com"><img src="./mail-open-outline.svg" alt=""></a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="logistics" class="px-6 py-8">
+        <div class="container">
+          <h1 class="font-bold text-xl">Logistics</h1>
+          <p class="mt-4">
+            Class Location and Timing: Room 203, Tehran University's College of Engineering. Sunday and Tuesday, 1:30 PM to 3 PM Iran Standard Time.
+          </p>
+        </div>
+      </section>
     </div>
   </body>
 </html>
