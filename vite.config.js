@@ -1,4 +1,5 @@
-// vite.config.js
-export default {
-    // config options
-  }
+import { defineConfig } from 'vite'
+
+export default defineConfig({
+  base: '/',   
+})
